@@ -1,5 +1,6 @@
 import { useContext } from "react";
 import CarritoContext from "../contexts/CarritoContext";
+import './Card.css'
 
 const Card = ( { producto } ) => {
     const { agregarCarritoContext } = useContext(CarritoContext)

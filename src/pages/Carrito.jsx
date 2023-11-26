@@ -61,7 +61,7 @@ const Carrito = () => {
                     <p><strong>${precioTotalArticulosCarritoContext().toFixed(2)}</strong></p>
                   </li>
                 </ul>
-                <button type="button" className="btn btn-outline-success btn-rounded" data-mdb-ripple-color="Gray">Pagar</button>
+                <button type="button" className="btn btn-outline-success btn-rounded" data-mdb-ripple-color="Gray" onClick={guardarCarritoContext}>Pagar</button>
 
               </div>
 

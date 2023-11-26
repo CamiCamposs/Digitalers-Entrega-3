@@ -31,14 +31,15 @@ useEffect(() => {
                     <div className="col-6">
                     <p><strong>{itemProducto.nombre}</strong></p>
                     <p>{itemProducto.autor}</p>
-                    <p>{itemProducto.precio}</p>
+                    <p>${itemProducto.precio}</p>
                     <p>{itemProducto.editorial}</p>
-                    <p>Precio</p>
+                    
 
-                    <button 
-                      className="btn-sm me-1 mb-2 fa-solid fa-trash-can text-danger" 
-                      onClick={() => eliminarProductoCarritoContext(itemProducto.id)}>
-                    </button>
+                    <button className="btn btn-danger btn-sm me-1 mb-2" onClick={() => eliminarProductoCarritoContext(itemProducto.id)} style={{borderRadius: "50%", width: "30px", height: "30px", padding: "6px 0px"}}
+                >
+                  <i className="fas fa-trash"></i>
+                </button>
+
                     
                     </div>
                     <div className="col-2">

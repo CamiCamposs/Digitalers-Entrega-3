@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Alatsi&family=Black+Han+Sans&family=Pontano+Sans:wght@300;600;700&family=Ramabhadra&display=swap');
+
+.nav-link:hover{
+    color: white;
+}
+
+.navbar-brand:hover{
+    color: white;
+}
+.btn-primary:hover{
+    background-color: #001a8d;
+}
+
+.navbar-brand{
+    color: gray;
+}
+
+.nav-link{
+    color: gray;
+}
+
+.navbar {
+    background-color: rgb(1, 5, 29);
+    color: gray;
+}

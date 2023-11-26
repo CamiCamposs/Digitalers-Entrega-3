@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Alatsi&family=Black+Han+Sans&family=Pontano+Sans:wght@300;600;700&family=Ramabhadra&display=swap');
+
+body{
+    font-family: 'Alatsi', sans-serif;
+  background-image: radial-gradient(ellipse farthest-corner at 45px 30px , #fff 50%, rgba(0, 255, 0, 0) 0%, #000429 50%);
+}
+
+.carousel-inner {
+    height: 65vh;
+    background-position: center center;
+    background-color: #000;
+}

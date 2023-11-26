@@ -2,6 +2,7 @@ import { Link, NavLink, useNavigate } from "react-router-dom"
 import ItemCarritoInicio from "./ItemCarritoInicio"
 import { useContext } from "react"
 import CarritoContext from "../contexts/CarritoContext"
+import './Navbar.css'
 
 const Navbar = () => {
   const { carrito, vaciarCarritoContext } = useContext(CarritoContext)

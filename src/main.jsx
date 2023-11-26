@@ -10,6 +10,7 @@ import Contacto from "./pages/Contacto";
 import Carrito from "./pages/Carrito";
 import NoEncontrada from "./pages/NoEncontrada";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer"; // Asegúrate de importar el componente Footer
 import { ProductosProvider } from "./contexts/ProductosContext";
 import Alta from "./pages/Alta";
 import { CarritoProvider } from "./contexts/CarritoContext";
@@ -20,7 +21,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <CarritoProvider>
         <BrowserRouter>
           <Navbar />
-
+          
           <main className="container">
             <Routes>
               <Route path="/" element={<Inicio />} />
@@ -31,6 +32,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
               <Route path="*" element={<NoEncontrada />} />
             </Routes>
           </main>
+          
+          <Footer /> {/* Agrega el componente Footer aquí */}
           
         </BrowserRouter>
       </CarritoProvider>

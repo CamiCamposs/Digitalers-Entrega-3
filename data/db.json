@@ -63,15 +63,19 @@
       "precio": 1324,
       "editorial": "Booket",
       "foto": "/img/elArte.jpg"
-    },
-    {
-      "id": 10,
-      "nombre": "Camila",
-      "autor": "das",
-      "precio": "123",
-      "editorial": "asAS"
     }
   ],
-  "carrito":[]
-  
+  "carrito": [
+    [
+      {
+        "id": 1,
+        "nombre": "Alaska sin ti",
+        "autor": "K.A. Tucker",
+        "precio": 9873,
+        "editorial": "V&R",
+        "foto": "/img/AlaskaSinTi.jpg",
+        "cantidad": "10"
+      }
+    ]
+  ]
 }
